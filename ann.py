@@ -54,7 +54,6 @@ classifier.compile(optimizer = 'adam', loss = 'binary_crossentropy', metrics = [
 # Fitting the ANN to the Training set
 classifier.fit(X_train, y_train, batch_size = 10, epochs = 100)
 
-# Part 3 - Making predictions and evaluating the model
 
 # Predicting the Test set results
 y_pred = classifier.predict(X_test)
